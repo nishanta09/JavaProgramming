@@ -7,7 +7,7 @@ public class demo1 {
 
 class Parent {
 
-    void display1() {
+   public void display1() {
 
         System.out.println("I am inside parent display1");
     }
@@ -16,7 +16,11 @@ class Parent {
 }
 
 class Child extends Parent {
+        @Override
+      void display1()
+        {
 
+        }
     
 
 }
