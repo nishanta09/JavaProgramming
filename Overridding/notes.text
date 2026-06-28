@@ -1,0 +1,22 @@
+
+
+
+
+                 private             ^^^^^^^    weakest of all
+                                       /|\                                            
+                                        |    
+                 default          ^^^^^^^^^^^^^^    weakest
+                                       /|\                   
+                                        |   
+                                        |   
+                protected      ^^^^^^^^^^^^^^^^^^^^^^   weaker
+                                       /|\                   
+                                        |   
+                                        | 
+                                        |                                        
+                                        |
+                public     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   weak
+
+
+
+                
