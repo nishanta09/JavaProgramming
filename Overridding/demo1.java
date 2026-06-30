@@ -17,7 +17,7 @@ class Parent {
 
 class Child extends Parent {
         @Override
-      void display1()
+      public void display1()
         {
 
         }
